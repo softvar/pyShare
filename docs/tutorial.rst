@@ -20,7 +20,8 @@ It is achieved using a python module **watchdog**. You can grab this at `Watchdo
 
 9. Still deveoping...
 
-.. warning::
+Warning::
+
    Run server and client on same platform
    Cross-platform connection and features will be availbale soon
 
