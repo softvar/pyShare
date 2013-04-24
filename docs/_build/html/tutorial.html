@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>SharePy Tutorial &mdash; SharePy 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="SharePy 1.0 documentation" href="index.html" />
+    <link rel="next" title="Project Summary" href="project.html" />
+    <link rel="prev" title="Welcome to SharePy’s documentation!" href="index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="project.html" title="Project Summary"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to SharePy’s documentation!"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">SharePy 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="sharepy-tutorial">
+<h1>SharePy Tutorial<a class="headerlink" href="#sharepy-tutorial" title="Permalink to this headline">¶</a></h1>
+<ol class="arabic simple">
+<li>Install Kivy from <a class="reference external" href="http://kivy.org/docs/installation/installation.html/">Installation guides for Kivy</a></li>
+<li>Clone this project and copy paste the SharePy folder and change to this directory . If you are on linux platform simply write <strong>python server.py</strong> &amp; <strong>python client.py</strong> in different terminals. For windows, open kivy.bat and run both the files in order as mentioned above.</li>
+<li>In server app, give the port number to start server at desired port and sstart the app by clicking the start button.</li>
+<li>Now in client app, give the I.P. address for the host machine (localhost/127.0.0.1 for same PC) and same port as was given in server app. Simply start the client app too and the server app will add the connected clients and display them.</li>
+<li>Now a folder named Hellosnp (can be changed later) will automatically be created in current directory which will act as a client&#8217;s local repo. Each client has its own.</li>
+<li>Client can search for available files on server.</li>
+</ol>
+<p>7. Folder <em>Hellosnp</em> will be under watch all the time for any file related events i.e filedelete event, file modifiedevent, filecreate event and so on for each client.
+It is achieved using a python module <strong>watchdog</strong>. You can grab this at <a class="reference external" href="https://github.com/gorakhargosh/watchdog/">Watchdog</a></p>
+<ol class="arabic simple" start="8">
+<li>Any file event will broadcast the notification to all the clients informing the event and its cause.</li>
+<li>Still deveoping...</li>
+</ol>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Run server and client on same platform
+Cross-platform connection and features will be availbale soon</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Welcome to SharePy&#8217;s documentation!</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="project.html"
+                        title="next chapter">Project Summary</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/tutorial.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="project.html" title="Project Summary"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to SharePy’s documentation!"
+             >previous</a> |</li>
+        <li><a href="index.html">SharePy 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Varun Malhotra.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2b1.
+    </div>
+  </body>
+</html>
