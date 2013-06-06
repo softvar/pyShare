@@ -330,7 +330,7 @@ class TwistedClientApp(App):
 		self.conn.disconnect()
 		self.layout.clear_widgets()
 		#os.chdir(cd..)
-		self.repo_creation()
+		self.setup_load()
 		path = os.path.dirname(os.getcwd())
 		os.chdir(path)
 		#output = subprocess.Popen(["cd.."],stdout=subprocess.PIPE).communicate()[0]
