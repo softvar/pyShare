@@ -1,8 +1,9 @@
 Kivy-MinorProject
 =================
 PyShare
+-------
 
-It's a  file sharing app which can be used for a collaborative project management.
+It's a file sharing app which can be used for a collaborative project management.
 Since Kivy is cross-platform, this app runs on both Windows as well as Linux platform.
 
 Based on Twisted Server-Clietn Model, this app helps team members to collaborate their work simultaneoulsy with others.
@@ -15,4 +16,11 @@ This helps everyone working if, on same project, to know the status and work of 
 Python module Watchdog helps in triggering pop-ups upon any file event.
 https://github.com/gorakhargosh/watchdog
 
-Yet more to develope...
+Running the App
+---------------
+
+1. cd PyShare
+2. run python server.py and enter the port to start the server 
+3. run python client.py on different machines and enter same port and host address to access the utilities.
+
+
