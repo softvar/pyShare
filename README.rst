@@ -16,6 +16,21 @@ This helps everyone working if, on same project, to know the status and work of 
 Python module Watchdog helps in triggering pop-ups upon any file event.
 https://github.com/gorakhargosh/watchdog
 
+Requirements
+------------
+
+Installing from PyPI using pip:
+
+.. code-block:: bash
+
+    pip install watchdog
+
+Installing from PyPI using easy_install:
+
+.. code-block:: bash
+
+    easy_install watchdog
+
 Running the App
 ---------------
 
