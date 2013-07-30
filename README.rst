@@ -1,10 +1,10 @@
-Kivy-MinorProject
-=================
+MinorProject
+============
 PyShare
 -------
 
 It's a file sharing app which can be used for a collaborative project management.
-Since Kivy is cross-platform, this app runs on both Windows as well as Linux platform.
+It uses Python-Kivy framework as its User interface. Since Kivy is cross-platform, this app runs all platforms.
 
 Based on Twisted Server-Clietn Model, this app helps team members to collaborate their work simultaneoulsy with others.
 http://twistedmatrix.com/documents/12.2.0/core/examples/
